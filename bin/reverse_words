@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'reverse_words'
+
+ReverseWords.run(ARGV[0])
