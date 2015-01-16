@@ -1,31 +1,19 @@
-# ReverseWords
+ReverseWords
+==================
 
-TODO: Write a gem description
+This gem takes a string containing one or more sentences and returns a string with the words in each sentence in reverse order.
 
-## Installation
+Getting Started
+=====
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'ReverseWords'
+Install the gem.
 ```
+gem install reverse_words
+```
+Usage
+=====
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install ReverseWords
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/ReverseWords/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+Give it a string containing one or more sentences via the command line.
+```
+reverse_words "Welcome to GitHub. This is my Ruby gem."
+```
